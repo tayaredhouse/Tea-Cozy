@@ -1,0 +1,47 @@
+/* Universal Styling */
+
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color:black;
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    height: 700px;
+    background-image: url('file:///C:/Users/17046/Desktop/Tea%20Cozy/Assets/img-mission-background.webp');
+    background-size: cover;
+    display:flex;
+    align-content: center;
+    align-items: center;
+}
+
+.mission {
+    width: 1200px;
+    height: 150px;
+    background-color: black;
+}
+
+.locations {
+    width: 1200px;
+    height:500px;
+    background-image: url('../Assets/img-locations-background.webp');
+    background-size: cover;
+}
+
+.box {
+    width: 300px;
+    display: inline-block;
+    background-color: black;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.imgcontainer {
+    display: inline-block
+}
