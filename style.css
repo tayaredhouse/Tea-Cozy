@@ -54,7 +54,7 @@ body {
 .mission-container {
     width: 1200px;
     height: 700px;
-    background-image: url('file:///C:/Users/17046/Desktop/Tea%20Cozy/Assets/img-mission-background.webp');
+    background-image: url('Assets/img-mission-background.webp');
     background-size: cover;
     display:flex;
     align-content: center;
@@ -89,7 +89,7 @@ figcaption {
 .locations {
     height:500px;
     width: 1200px;
-    background-image: url('../Assets/img-locations-background.webp');
+    background-image: url('Assets/img-locations-background.webp');
     background-size: cover;
     display: flex;
     align-items: center;
