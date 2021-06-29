@@ -6,9 +6,48 @@ html {
     color: seashell;
     background-color:black;
     text-align: center;
+    margin: 40px;
 }
 
-.container {
+/*Navigational Bar Styling, fixed nav */
+
+.nav-container {
+    height: 69px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px seashell;
+}
+
+.navlist ul {
+    text-align: center;
+    float: right;
+}
+
+.navlist li {
+    display: inline-block;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.logo img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+/* Landing styling, Mission section*/
+.mission-container {
     width: 1200px;
     height: 700px;
     background-image: url('file:///C:/Users/17046/Desktop/Tea%20Cozy/Assets/img-mission-background.webp');
@@ -24,24 +63,51 @@ html {
     background-color: black;
 }
 
+
+/*Tea of the month styling*/
+
+.imgcontainer {
+    display: inline-flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.imgcontainer img {
+    height: 200px;
+    width: 300px;
+}
+
+figcaption {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+/*Location section*/
 .locations {
-    width: 1200px;
     height:500px;
+    width: 1200px;
     background-image: url('../Assets/img-locations-background.webp');
     background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-flow: row wrap;
+}
+
+.locationhead {
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%
 }
 
 .box {
     width: 300px;
     display: inline-block;
     background-color: black;
+    margin-right: 40px;
 }
 
-img {
-    height: 200px;
-    width: 300px;
-}
-
-.imgcontainer {
-    display: inline-block
+/*Copyright styling*/
+h6 {
+    text-align: left;
+    font-weight: bold;
 }
