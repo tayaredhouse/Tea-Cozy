@@ -1,6 +1,6 @@
 /* Universal Styling */
 
-html {
+body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
@@ -35,6 +35,10 @@ html {
     padding-left: 20px;
 }
 
+.navlist a {
+    color: seashell;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -58,7 +62,7 @@ html {
 }
 
 .mission {
-    width: 1200px;
+    width: 100%;
     height: 150px;
     background-color: black;
 }
@@ -91,6 +95,7 @@ figcaption {
     align-items: center;
     align-content: center;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 .locationhead {

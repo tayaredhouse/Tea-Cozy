@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <!--Navigation Links & Logo-->
     <header>
         <div class="nav-container">
         <h1 class="logo">
@@ -12,23 +14,27 @@
         </h1>
         <nav>
             <ul class="navlist">
-                <li>Mission</li>
-                <li>Featured Tea</li>
-                <li>Locations</li>
+                <li><a href="#mission-link">Mission</a></li>
+                <li><a href="#monthly-link">Featured Tea</a></li>
+                <li><a href="#location-link">Locations</a></li>
             </ul>
         </nav>
         </div>
     </header>
     
     <main>
+
+        <!--Landing & Mission Statement-->
         <div class="mission-container">
             <div class="mission">
-            <h2>Our Mission</h2>
+            <h2 id="mission-link">Our Mission</h2>
             <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
             </div>
         </div>
+
+        <!--Tea of the Month info with images of product lineup-->
         <div class="ofmonth">
-            <h2> Tea of the Month</h2>
+            <h2 id="monthly-link"> Tea of the Month</h2>
             <h4>What's Steeping at The Tea Cozy?</h4>
             <div class= "imgcontainer">
                 <figure>
@@ -53,8 +59,12 @@
                 </figure>
             </div>
         </div>
+
+        <!--Location Information for Store-->
         <div class="locations">
-            <h2 class="locationhead">Locations</h2>
+            <div class="locationhead">
+                <h2 id="location-link">Locations</h2>
+            </div>
             <div class="box">
                 <h3>Downtown</h3>
                 <p>384 West 4th St</p>
@@ -75,6 +85,8 @@
             </div>
         </div>
     </main>
+
+    <!--Contact Information for business-->
     <footer>
         <h2>The Tea Cozy</h2>
         <h5>contact@theteacozy.com</h5>
